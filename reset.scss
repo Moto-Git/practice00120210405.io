@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*
+-------------------------------------
+base color setting
+// $c: #;
+-------------------------------------
+$cPrimary: #2e5180;
+$cDarkgray: #333;
+$cMidlegray: #707f89;
+$cGray: #cdd6dd;
+$cLightgray: #eef4f8;
+$cWhite: #fff;
+
+-------------------------------------
+media setting
+-------------------------------------
+// Mobile Setting
+// Small Size
+
+@media (max-width: 899px) {
+}
+
+// PC Setting
+// Big Size
+
+@media (min-width: 900px) {
+}
+
+*/
+
+/* Base */
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}

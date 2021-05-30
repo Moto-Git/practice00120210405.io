@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+$cPrimary: #ff953a;
+$cDarkgray: #222;
+$cMidlegray: #414141;
+$cGray: #888;
+$cLightgray: #eef4f8;
+$cWhite: #fff;
+// $c: #;
+
+
+/* Size Base -------------------------- */
+:root {
+  font-size: 10px;
+}
+
+/* 1rem = 100px */
+/* rem = font-size */
+/* ------------------------------------ */
+
+/* Base Setting ----------------------- */
+body {
+  color: $cDarkgray;
+  font-size: 1rem;
+  font-family: sans-serif;
+  line-height: 1.8;
+}
+
+// Image
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+// Link
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+/* ------------------------------------ */
+
+/* Base Module ------------------------ */
+.container {
+  width: 84%;
+  margin: 0 auto;
+}
+
+/*
+.container {
+  margin: 0 7%;
+}
+*/
+.container {
+  @media (min-width: 900px) {
+    width: 91%;
+    max-width: 1240px;
+  }
+
+}
+
+/* ------------------------------------ */
+
+
+/* Media Setting ---------------------- */
+
+/* Mobile Setting */
+/*
+
+// Mobile Setting
+@media (max-width: 899px) { 
+}
+
+*/
+
+/* PC Setting */
+/*
+
+//PC Setting
+@media (min-width: 900px) { 
+}
+
+*/
+/* ------------------------------------ */

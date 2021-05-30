@@ -1,0 +1,71 @@
+/* Size Base -------------------------- */
+:root {
+  font-size: 10px;
+}
+
+/* 1rem = 100px */
+/* rem = font-size */
+/* ------------------------------------ */
+/* Base Setting ----------------------- */
+body {
+  color: #222;
+  font-size: 1rem;
+  font-family: sans-serif;
+  line-height: 1.8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* ------------------------------------ */
+/* Base Module ------------------------ */
+.container {
+  width: 84%;
+  margin: 0 auto;
+}
+
+/*
+.container {
+  margin: 0 7%;
+}
+*/
+@media (min-width: 900px) {
+  .container {
+    width: 91%;
+    max-width: 1240px;
+  }
+}
+
+/* ------------------------------------ */
+/* Media Setting ---------------------- */
+/* Mobile Setting */
+/*
+
+// Mobile Setting
+@media (max-width: 899px) { 
+}
+
+*/
+/* PC Setting */
+/*
+
+//PC Setting
+@media (min-width: 900px) { 
+}
+
+*/
+/* ------------------------------------ */
+/*# sourceMappingURL=common.css.map */
